@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DoubleTake FilmLogic</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            light: '#0891b2', // cyan-600
+                            DEFAULT: '#06b6d4', // cyan-500
+                            dark: '#0e7490',  // cyan-700
+                        },
+                        accent: {
+                            light: '#a3e635', // lime-400
+                            DEFAULT: '#84cc16', // lime-500
+                            dark: '#65a30d',  // lime-600
+                        },
+                        gray: {
+                            50: '#f8fafc',
+                            100: '#f1f5f9',
+                            200: '#e2e8f0',
+                            300: '#cbd5e1',
+                            400: '#94a3b8',
+                            500: '#64748b',
+                            600: '#475569',
+                            700: '#334155',
+                            800: '#1e293b',
+                            900: '#0f172a',
+                            950: '#020617',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.7.0",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.6.2",
+    "recharts": "https://esm.sh/recharts@^3.0.0",
+    "firebase/app": "https://esm.sh/firebase@10.12.2/app",
+    "firebase/auth": "https://esm.sh/firebase@10.12.2/auth",
+    "firebase/firestore": "https://esm.sh/firebase@10.12.2/firestore",
+    "firebase/storage": "https://esm.sh/firebase@10.12.2/storage",
+    "firebase/": "https://esm.sh/firebase@^11.9.1/",
+    "@firebase/firestore": "https://esm.sh/@firebase/firestore@^4.7.17",
+    "@firebase/auth": "https://esm.sh/@firebase/auth@^1.10.7",
+    "@firebase/app": "https://esm.sh/@firebase/app@^0.13.1",
+    "@firebase/storage": "https://esm.sh/@firebase/storage@^0.13.13",
+    "cors": "https://esm.sh/cors@^2.8.5",
+    "firebase-functions": "https://esm.sh/firebase-functions@^6.3.2",
+    "firebase-admin": "https://esm.sh/firebase-admin@^13.4.0",
+    "buffer": "https://esm.sh/buffer@^6.0.3",
+    "express": "https://esm.sh/express@^5.1.0",
+    "firebase-functions/": "https://esm.sh/firebase-functions@^6.3.2/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>

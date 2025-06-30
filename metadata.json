@@ -1,0 +1,8 @@
+{
+  "name": "DoubleTake FilmLogic",
+  "description": "A comprehensive shop management application for auto detailing businesses, featuring job and inventory management, financial tracking, a technician time clock, and powerful AI-driven insights with Film LogicIQ.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "prompt": ""
+}
